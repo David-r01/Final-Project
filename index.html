@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Webpage</title>
+  <style>
+    body {
+      background-color: rgb(255, 255, 255);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(255, 255, 255);
+      background-color: rgb(97, 126, 197);
+      padding: 1rem;
+      border: solid black 5px;
+      text-align: center;
+      margin: 0;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      margin-top: 20px;
+    }
+    .navbar {
+      background-color: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      padding: 5px 10px;
+    }
+
+    .navbar a:hover {
+      color: #ff6347; 
+      background-color: #444;
+      border-radius: 5px;
+    }
+    section {
+      padding: 20px;
+      margin: 20px;
+      border: 2px solid #ddd;
+      border-radius: 8px; 
+    }
+    ul {
+      font-size: 18px;
+      line-height: 1.6;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ff6347;
+    }
+    section img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; 
+      gap: 20px;
+      padding: 20px;
+    }
+    li a {
+      padding: 5px 0;
+      display: inline-block;
+      text-decoration: underline;
+    }
+    li a:hover {
+      color: #ff6347;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about-me">About Me</a>
+    <a href="#goals">My Goals</a>
+  </div>
+  <header>
+    <h1>Welcome to David's Website</h1>
+  </header>
+  <main>
+    <div class="content">
+      <section id="home">
+        <p>Hello! I am from Mt. Eden High School and I am currently taking AP Computer Science. I enjoy studying and learning new things in this class</p>
+      </section>
+      <section>
+        <h2>What I Have Learned So Far in AP Computer Science</h2>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a></li>
+          <li>Variables</li>
+          <li>Arrays</li>
+          <li>Loops</li>
+          <li>Data Types</li>
+          <li>Functions</li>
+          <li>Binary Code</li>
+        </ul>
+      </section>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <ul>
+          <li>I am 16 years old</li>
+          <li>My favorite color is blue</li>
+          <li>I like to eat a lot</li>
+          <li>I do wrestling</li>
+          <li>I like to hang out with friends</li>
+        </ul>
+        <p>My name is David Ramos, and I am from Hayward, California. I was born in Castro Valley, California on April 1st, 2008. In my free time, I enjoy scrolling on TikTok, hanging out with friends, and listening to calm music while studying. One of my favorite activities is hiking because I enjoy the nature and the views.</p>
+      </section>
+      <section id="goals">
+        <h2>My Personal Goals in Life</h2>
+        <ul>
+          <li>Be able to talk to new people without getting nervous</li>
+          <li>Be able to do a handstand</li>
+          <li>Get closer to God</li>
+          <li>Be kind to others</li>
+          <li>Pass all my classes to graduate</li>
+          <li>Go to a UC or private school</li>
+          <li>Make a decent amount of money</li>
+          <li>Get six-pack abs before graduating</li>
+          <li>Repay my family for everything they have done for me</li>
+        </ul>
+      </section>
+      <section>
+        <h2>My Favorite Website When I Am Bored</h2>
+        <p>When I'm bored, I love playing the Snake Game. You can play it here: 
+        <a href="https://www.google.com/search?q=snake+game&rlz=1CAJIKU_enUS1144&oq=snake+g&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyCQgBEEUYORiABDIKCAIQABixAxiABDIKCAMQABixAxiABDIHCAQQABiABDIKCAUQLhixAxiABDIHCAYQABiABDIGCAcQRRg9qAIAsAIA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on">Snake Game</a></p>
+      </section>
+      <section>
+        <h2>A Picture of My High School</h2>
+        <img src="https://d2rzw8waxoxhv2.cloudfront.net/imagine/medium/mehs94545/1712266779853-595-63.jpeg" alt="High School Image">
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy;2025 David Ramos' Webpage</p>
+  </footer>
+</body>
+</html>
