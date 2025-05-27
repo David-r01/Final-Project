@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <title>My First Webpage</title>
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       background-color: rgb(255, 255, 255);
       font-family: Arial, sans-serif;
@@ -32,7 +36,12 @@
       bottom: 0;
       margin-top: 20px;
     }
+
     .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
       background-color: #333;
       padding: 10px;
       display: flex;
@@ -53,12 +62,18 @@
       background-color: #444;
       border-radius: 5px;
     }
+
+    main {
+      padding-top: 70px; 
+    }
+
     section {
       padding: 20px;
       margin: 20px;
       border: 2px solid #ddd;
       border-radius: 8px; 
     }
+
     ul {
       font-size: 18px;
       line-height: 1.6;
@@ -77,6 +92,7 @@
     a:hover {
       color: #ff6347;
     }
+
     section img {
       display: block;
       max-width: 100%;
@@ -84,22 +100,28 @@
       margin: 0 auto;
       border-radius: 10px;
     }
+
     .content {
       display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap; 
+      flex-direction: column;
       gap: 20px;
-      padding: 20px;
     }
+
     li a {
       padding: 5px 0;
       display: inline-block;
       text-decoration: underline;
     }
+
     li a:hover {
       color: #ff6347;
     }
 
+    iframe {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -107,15 +129,20 @@
     <a href="#home">Home</a>
     <a href="#about-me">About Me</a>
     <a href="#goals">My Goals</a>
+    <a href="#projects">Projects</a>
+    <a href="#extra">Extra</a>
   </div>
+
   <header>
     <h1>Welcome to David's Website</h1>
   </header>
+
   <main>
     <div class="content">
       <section id="home">
-        <p>Hello! I am from Mt. Eden High School and I am currently taking AP Computer Science. I enjoy studying and learning new things in this class</p>
+        <p>Hello! I am from Mt. Eden High School and I am currently taking AP Computer Science. I enjoy studying and learning new things in this class.</p>
       </section>
+
       <section>
         <h2>What I Have Learned So Far in AP Computer Science</h2>
         <ul>
@@ -129,10 +156,11 @@
           <li>Binary Code</li>
         </ul>
       </section>
+
       <section id="about-me">
         <h2>About Me</h2>
         <ul>
-          <li>I am 16 years old</li>
+          <li>I am 17 years old</li>
           <li>My favorite color is blue</li>
           <li>I like to eat a lot</li>
           <li>I do wrestling</li>
@@ -140,6 +168,7 @@
         </ul>
         <p>My name is David Ramos, and I am from Hayward, California. I was born in Castro Valley, California on April 1st, 2008. In my free time, I enjoy scrolling on TikTok, hanging out with friends, and listening to calm music while studying. One of my favorite activities is hiking because I enjoy the nature and the views.</p>
       </section>
+
       <section id="goals">
         <h2>My Personal Goals in Life</h2>
         <ul>
@@ -154,17 +183,45 @@
           <li>Repay my family for everything they have done for me</li>
         </ul>
       </section>
-      <section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+
+        <section id="tic-tac-toe">
+          <h3>Tic-Tac-Toe Game</h3>
+          <p>This is a Tic-Tac-Toe game you can play with your friends to see who's the best at Tic-Tac-Toe!</p>
+          <p><strong>Live Version:</strong> <a href="https://codepen.io/DivadS/pen/yyLXQQZ" target="_blank">Click Here!</a></p>
+          <iframe height="400" style="width: 100%;" scrolling="no" title="Tic Tac Toe" src="https://codepen.io/DivadS/embed/yyLXQQZ?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+        </section>
+
+        <section id="counter-app">
+          <h3>Clock App</h3>
+          <p>This is a clock app that displays the current time and lets you change the background color!</p>
+          <p><strong>Live Version:</strong> <a href="https://codepen.io/DivadS/pen/GgROoGM" target="_blank">Click Here!</a></p>
+          <iframe height="400" style="width: 100%;" scrolling="no" title="Counter App" src="https://codepen.io/DivadS/embed/GgROoGM?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+        </section>
+
+        <section id="bg-generator">
+          <h3>Red Light Green Light Game</h3>
+          <p>This is a Red Light Green Light game based on the show <em>Squid Game</em>. It's fun and challenging!</p>
+          <p><strong>Live Version:</strong> <a href="https://codepen.io/DivadS/pen/gbOXPKX" target="_blank">Click Here!</a></p>
+          <iframe height="400" style="width: 100%;" scrolling="no" title="Random Background Generator" src="https://codepen.io/DivadS/embed/gbOXPKX?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+        </section>
+      </section>
+
+      <section id="extra">
         <h2>My Favorite Website When I Am Bored</h2>
         <p>When I'm bored, I love playing the Snake Game. You can play it here: 
-        <a href="https://www.google.com/search?q=snake+game&rlz=1CAJIKU_enUS1144&oq=snake+g&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyCQgBEEUYORiABDIKCAIQABixAxiABDIKCAMQABixAxiABDIHCAQQABiABDIKCAUQLhixAxiABDIHCAYQABiABDIGCAcQRRg9qAIAsAIA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on">Snake Game</a></p>
+        <a href="https://www.google.com/search?q=snake+game" target="_blank">Snake Game</a></p>
       </section>
+
       <section>
         <h2>A Picture of My High School</h2>
-        <img src="https://d2rzw8waxoxhv2.cloudfront.net/imagine/medium/mehs94545/1712266779853-595-63.jpeg" alt="High School Image">
+        <img src="https://d2rzw8waxoxhv2.cloudfront.net/imagine/medium/mehs94545/1712266779853-595-63.jpeg" alt="Image of Mt. Eden High School">
       </section>
     </div>
   </main>
+
   <footer>
     <p>&copy;2025 David Ramos' Webpage</p>
   </footer>
