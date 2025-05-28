@@ -6,7 +6,7 @@
 
 - My profolio has a home page, what I have learned in this class, a about me section, what are my goals, my projects throughout this class year, and extras that are, my favorite website and a picture of my school.
 
--My Projects:
+- My Projects:
 Tic-Tac-Toe: A two player game where players take turns placing X and O on a grid. The first to get three in a row wins. It's competitive, fun, and easy to play.
 Clock App: A digital clock app that displays the current time and lets us change the background color.
 Red Light Green Light: A game inspired by Squid Game where the player must move only when the light is green. If you move when the light is red, you're out! It’s fun and challenging.
