@@ -23,6 +23,6 @@ This portfolio website is my final project for AP Computer Science Principles. I
   Inspired by *Squid Game*, this game challenges players to move only when the light is green. If the player moves while the light is red, the game ends. It’s a fun and interactive project that uses conditionals and timers.
 
 ## Links
-- 🔗 [GitHub Repository](https://github.com/yourusername/final-project-portfolio)  
-- 🌐 [Live Website]([https://yourusername.github.io/final-project-portfolio/](https://david-r01.github.io/Final-Project/))
+- 🔗 [GitHub Repository](https://github.com/David-r01/Final-Project)  
+- 🌐 [Live Website](https://david-r01.github.io/Final-Project/)
 
