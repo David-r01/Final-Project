@@ -8,11 +8,9 @@ This portfolio website is my final project for AP Computer Science Principles. I
 
 ## What’s Included in the Portfolio Site
 - **Home Page** – A welcome message and intro to the site  
-- **About Me** – Personal interests and background information  
-- **What I’ve Learned** – Topics like HTML, CSS, JavaScript, binary, loops, variables, arrays, and functions  
-- **My Goals** – Academic and personal goals for the future  
+- **About Me** – Personal interests and background information    
 - **My Projects** – Descriptions and links to class projects  
-- **Extras** – My favorite website and a photo of Mt. Eden High School  
+- **Pictures** – Picture of my wrestling team and me wrestling
 
 ## Featured Projects
 - **Tic-Tac-Toe**  
@@ -27,4 +25,3 @@ This portfolio website is my final project for AP Computer Science Principles. I
 ## Links
 - 🔗 [GitHub Repository](https://github.com/yourusername/final-project-portfolio)  
 - 🌐 [Live Website](https://yourusername.github.io/final-project-portfolio/)
-
