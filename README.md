@@ -24,4 +24,5 @@ This portfolio website is my final project for AP Computer Science Principles. I
 
 ## Links
 - 🔗 [GitHub Repository](https://github.com/yourusername/final-project-portfolio)  
-- 🌐 [Live Website][https://yourusername.github.io/final-project-portfolio/](https://david-r01.github.io/Final-Project/)
+- 🌐 [Live Website]([https://yourusername.github.io/final-project-portfolio/](https://david-r01.github.io/Final-Project/))
+
