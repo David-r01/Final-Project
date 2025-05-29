@@ -4,7 +4,7 @@
 Hi! My name is David, and I'm a junior at Mt. Eden High School. I'm currently taking AP Computer Science Principles. This class has taught me key programming concepts like variables, arrays, loops, and functions, as well as how to build web pages using HTML, CSS, and JavaScript. I enjoy creating projects that are both fun and challenging. Outside of coding, I like wrestling, hiking, spending time with friends, and listening to music by artists like The Marías and Mac DeMarco.
 
 ## About This Project
-This portfolio website is my final project for AP Computer Science Principles. It showcases who I am, what I’ve learned throughout the year, and the projects I’ve created in class. By building this site, I’ve gained a deeper understanding of web development and improved my coding skills through hands-on practice.
+This portfolio website is my final project for AP Computer Science Principles. It shows who I am, what I’ve learned throughout the year, and the projects I’ve created in class. By building this site, I’ve gained a better understanding of web development and improved my coding skills through this.
 
 ## What’s Included in the Portfolio Site
 - **Home Page** – A welcome message and intro to the site  
